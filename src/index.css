@@ -212,3 +212,144 @@ nav .logo-container .logo {
 .onboarding form .photo-container img {
   width: 100%
 }
+
+
+/*-------- Dashboard  --------*/
+/* dashboard.css */
+.swiper-container {
+  /* Add your swiper-container styles here */
+}
+
+.card-container {
+  /* Add your card-container styles here */
+}
+
+.card {
+  position: relative;
+  width: 300px; /* Adjust the width as per your requirement */
+  height: 400px; /* Adjust the height as per your requirement */
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+}
+
+.character-name {
+  position: absolute;
+  bottom: 16px; /* Adjust the position as per your requirement */
+  left: 16px; /* Adjust the position as per your requirement */
+  font-size: 24px; /* Adjust the font size as per your requirement */
+  color: white; /* Adjust the color as per your requirement */
+  /* Add any other styles for the name here */
+}
+
+
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header_icon{
+  padding: 10px;
+}
+
+.header_logo{
+  object-fit: contain;
+  height: 40px;
+}
+
+.card{
+  position:relative;
+  width: 400px;
+  padding: 20px;
+  max-width: 85vw;
+  height:50vh;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  }
+  
+  .card h3{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+  }
+  
+  .tinderCard_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  
+  .swipe{
+    position: absolute;
+  }
+
+  .swipeButton{
+    position: fixed;
+    bottom: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .tinder-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tinder-card {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .card-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .card-name {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 768px) {
+    .tinder-cards {
+      padding: 40px;
+    }
+  
+    .tinder-card {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  
+    .card-name {
+      font-size: 24px;
+    }
+  }
+  

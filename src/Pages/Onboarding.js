@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
 
 const OnBoarding = () => {
-    const [cookies, setCookie, removeCookie] = useCookies(null)
+    const [cookies] = useCookies(null)
     const [formData, setFormData] = useState({
         user_id: cookies.UserId,
         first_name: "",

@@ -1,14 +1,18 @@
-const Dashboard = () => {
-    return (
-        <div className="dashboard">
-            <ChatContainer/>
-            <div className="swiper-container">
-                <div className="card-container">
-                    
-                </div>
-            </div>
-        </div>
-    )
-}
+import Header from "../components/Header";
+import TinderCards from "../components/TinderCards";
+import SwipeButton from "../components/SwipeButton";
 
-export default Dashboard
+const Dashboard = () => {
+  return (
+    <div className="App">
+      {/* Header */}
+      <Header/>
+      {/* Swipe Section */}
+      <TinderCards />
+      {/* action */}
+      <SwipeButton/>
+    </div>
+  );
+};
+
+export default Dashboard;
